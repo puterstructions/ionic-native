@@ -289,6 +289,15 @@ export interface Notification {
    */
   smallIcon?: string;
 
+  /**
+   * Actions
+   */
+  actions?: any[];
+
+  /**
+   * Category
+   */
+  category?: string;
 
   /**
    * ANDROID ONLY
